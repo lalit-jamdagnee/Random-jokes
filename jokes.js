@@ -1,3 +1,14 @@
+// Adding some css to the navigation bar
+let navBar = document.getElementsByClassName('navigation')[0]
+navBar.style.background = 'black';
+navBar.firstElementChild.style.color = 'orangered';
+navBar.lastElementChild.style.color = 'green';
+
+Array.from(document.getElementsByTagName('h3')).forEach((element) =>{
+    element.style.background = 'black';
+})
+
+
 let Jokes = [`What's the best thing about Switzerland? The flag is a big plus.`,
 `I went to the aquarium this weekend, but I didn’t stay long. There’s something fishy about that place.`,
 `I found a lion in my closet the other day! When I asked what it was doing there, it said “Narnia business.”`,
